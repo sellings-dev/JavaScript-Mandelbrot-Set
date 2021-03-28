@@ -7,6 +7,9 @@ It uses the escape time algorithm to calculate the "tendency" of a point being p
 
 Finally, I render the pixels on the HTML canvas using the `putImageData()` method. You can also tweak the size of this canvas, but I still have to compensate for distortion. I plan on adding inputs to change this kind of options, as well as zooming into a specific point.
 
+Screenshot of the generated image for 100 maximum iterations and a blueish color convertion.
+![js-mandelbrot](https://user-images.githubusercontent.com/64794244/112767171-8700df80-8feb-11eb-931a-ad44147d4ce6.png)
+
 For reference you can check:
 
 - https://en.wikipedia.org/wiki/Mandelbrot_set

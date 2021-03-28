@@ -8,9 +8,11 @@ It uses the escape time algorithm to calculate the "tendency" of a point being p
 Finally, I render the pixels on the HTML canvas using the `putImageData()` method. You can also tweak the size of this canvas, but I still have to compensate for distortion. I plan on adding inputs to change this kind of options, as well as zooming into a specific point.
 
 ![js-mandelbrot](https://user-images.githubusercontent.com/64794244/112767171-8700df80-8feb-11eb-931a-ad44147d4ce6.png)
+
 *Screenshot of the generated image for 100 maximum iterations and a blueish color conversion.*
 
 ![canvas](https://user-images.githubusercontent.com/64794244/112769510-cfbe9580-8ff7-11eb-896e-0a61d68d8d9a.png)
+
 *Green neon conversion. For this effect I established 3 color conversion steps, or in other words, a very rudimentary color gradient. 50 maximum iterations.*
 
 **Fun fact:** As it is rendered inside a canvas tag, you can simply right-click and download the image for outside use!
